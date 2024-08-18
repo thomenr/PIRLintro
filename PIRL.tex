@@ -1,0 +1,102 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[11pt]{book}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amssymb}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=1cm,font={small}]{caption}
+\usepackage[shortlabels]{enumitem} 
+%\usepackage{ragged2e}
+
+% -- Homework Exercise Environments -- ##
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{reflection}[2][Reflection]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{proposition}[2][Proposition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+
+% --------------------------------------------------------------
+%                         Useful Code blocks
+% --------------------------------------------------------------
+% Add a Figure
+%\begin{figure}[h!] \begin{center}\includegraphics[width=250px]{kermaPhantom.png}\end{center}\end{figure}
+
+
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Title Page
+% --------------------------------------------------------------
+ 
+%\renewcommand{\qedsymbol}{\filledbox}
+  \pagenumbering{gobble}%Remove page numbers
+
+\begin{titlepage}
+\begin{center}
+% Upper part of the page  
+
+
+
+\; \\ \; \\ \; \\ \; \\ \; \\ \; \\
+
+\Large University of Missouri \\
+\Large Department of Chemical and Biomedical Engineering\\
+
+\vspace{2.5cm}
+
+
+
+
+\rule{6cm}{1pt}\\
+\vspace{.3cm}
+\Large \textbf{PIRL Handbook}\\
+\vspace{.5cm}
+\textsc{\Large Pulmonary Imaging Research Lab \\ Things to know}\\
+
+\vspace{.1cm}
+\rule{6cm}{1pt}
+
+\vspace{4cm}
+\Large \textbf{Robert P Thomen, PhD}\\
+
+
+
+\vspace{4cm}
+\Large This is a compilation of `must-know' material for the PIRL research group.
+
+Document compilation date: \today
+\tableofcontents
+
+\end{center}
+\end{titlepage}
+
+
+\chapter{The PIRL}
+
+
+
+
+
+
+
+\end{document}
