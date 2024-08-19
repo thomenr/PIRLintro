@@ -5,14 +5,52 @@
  
 \documentclass[11pt]{book}
  
-\usepackage[margin=1in]{geometry} 
+
 \usepackage{amsmath,amssymb}
+\usepackage{cite}
+\usepackage[margin=1in]{geometry} 
 \usepackage{indentfirst}
+
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage[margin=1cm,font={small}]{caption}
 \usepackage[shortlabels]{enumitem} 
-%\usepackage{ragged2e}
+\usepackage{euscript}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage[margin=0cm,font=small,font=sl,labelfont=bf]{caption}
+\usepackage[pdftex]{graphicx}
+\usepackage{marvosym}
+\usepackage{pseudocode}
+\usepackage{algorithmic}
+\usepackage[bottom]{footmisc}
+\usepackage{epigraph}
+\usepackage{setspace}
+\usepackage[final]{pdfpages}
+
+%% ------- Page Formatting preferences ---- ###
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt} % normally 0pt
+\fancyfootoffset{0in} % normally 0in
+
+\setlength{\oddsidemargin}{0in} % normally 0.5in
+\setlength{\hoffset}{0in} % normally 0in
+\setlength{\voffset}{0in} % normally -0.5in
+\setlength{\topmargin}{0in} %%%%%%%%%%%%%%%%%%%%% normally 0in may need to change%%%%%%%%%%
+\setlength{\marginparwidth}{0in} % normally 0in
+\setlength{\textwidth}{6in} % normally 6in
+\setlength{\textheight}{9in} % normally 9in
+%\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+
 
 % -- Homework Exercise Environments -- ##
 \newcommand{\N}{\mathbb{N}}
@@ -43,13 +81,10 @@
 
 
 \begin{document}
- 
+\setlength{\baselineskip}{1.2\baselineskip}
 % --------------------------------------------------------------
 %                         Title Page
 % --------------------------------------------------------------
- 
-%\renewcommand{\qedsymbol}{\filledbox}
-  \pagenumbering{gobble}%Remove page numbers
 
 \begin{titlepage}
 \begin{center}
